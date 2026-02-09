@@ -1,2 +1,3 @@
-# gh-garden
-check your contributions from your terminal
+```sh
+uv run uvicorn main:app --reload
+```
