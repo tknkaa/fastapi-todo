@@ -8,3 +8,8 @@ dependencies = [
     "fastapi>=0.128.5",
     "uvicorn>=0.40.0",
 ] 
+
+[dependency-groups]
+dev = [
+    "black>=26.1.0",
+]
