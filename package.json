@@ -1,0 +1,34 @@
+{
+  "name": "some-tui",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/tknkaa/gh-garden#readme",
+  "bugs": {
+    "url": "https://github.com/tknkaa/gh-garden/issues"
+  },
+  "license": "ISC",
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tknkaa/gh-garden.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsx src/index.tsx",
+    "fmt": "oxfmt"
+  },
+  "dependencies": {
+    "ink": "^6.7.0",
+    "react": "^19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "@types/react": "^19.2.14",
+    "oxfmt": "^0.32.0",
+    "tsc": "^2.0.4",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
